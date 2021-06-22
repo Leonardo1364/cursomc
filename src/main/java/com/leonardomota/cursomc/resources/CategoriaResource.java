@@ -13,7 +13,7 @@ import com.leonardomota.cursomc.domain.Categoria;
 @RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
-	// Testando requisição REST
+	// Testando requisição REST através de uma lista
 	@RequestMapping(method=RequestMethod.GET)
 	public List<Categoria> listar() {
 		
